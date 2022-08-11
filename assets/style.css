@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 
 .container {
@@ -16,8 +15,6 @@
 
 
 /* HEADER CONTENT HERE */
-/* FIXME: header and hero don't line up correctly */
-
 header {
     display: flex;
     justify-content: space-around;
@@ -53,11 +50,17 @@ header {
 /* HERO CONTENT HERE  */
 .hero-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     padding: 48px;
     background-color: #1f2937;
     color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
 }
 
 .sign-up {
@@ -130,7 +133,7 @@ header {
     font-style: italic;
     color: #1f2937;
     padding: 92px;
-    max-width: 940px; /* could this work for the header and hero?*/
+    max-width: 940px;
 }
 
 .author {
