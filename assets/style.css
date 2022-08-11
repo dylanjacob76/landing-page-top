@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    /* max-width: 940px;
+    margin: 0 auto; */
+}
+
+
+/* HEADER CONTENT HERE */
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    margin-bottom: 28px;
+    background-color: rgb(25, 56, 91);
+    
+}
+
+.main-header {
+    color: #fff;
+    font-size: 60%;
+}
+
+.nav ul {
+    display: flex;
+}
+
+
+.nav ul a {
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+}
+
+.nav ul a li {
+    margin-left: 25px;
+    list-style: none;
+}
+
+/* HERO CONTENT HERE  */
+
