@@ -237,3 +237,7 @@ footer a {
 footer a:hover {
   font-weight: bold;
 }
+
+.credit {
+  margin-top: 8px;
+}
