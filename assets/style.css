@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
   margin: 0;
@@ -28,6 +28,16 @@ header {
 
 .main-header ul li {
   list-style: none;
+}
+
+.main-header ul li a {
+text-decoration: none;
+color: black;
+transition: .2s ease-in;
+}
+
+.main-header ul li a:hover {
+  color: rgb(64, 197, 148);
 }
 
 .main-header ul {
@@ -60,10 +70,25 @@ header {
   color: white;
   font-weight: bold;
   margin-top: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.sub-header-content button:hover {
+  background-color: rgb(249, 191, 234);
 }
 
 .sub-header-content h2 {
   font-size: 48px;
+}
+
+.pop-culture {
+ font-family:'Courgette', cursive;
+ color: rgb(0, 0, 0);
+ font-size: 55px;
+ -webkit-text-stroke: 1px #000000;
+ text-shadow: 0px 2px 4px rgb(217, 67, 251);
+ letter-spacing: -1px;
 }
 
 .sub-header p {
@@ -179,6 +204,12 @@ header {
   color: white;
   font-weight: bold;
   margin-top: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.modal button:hover {
+  background-color: rgb(249, 191, 234);
 }
 
 .modal-content {
@@ -201,4 +232,8 @@ footer {
 footer a {
   text-decoration: none;
   color: black;
+}
+
+footer a:hover {
+  font-weight: bold;
 }
